@@ -83,7 +83,7 @@ jobs:
   terraform_destroy:
       name: 'Terraform destroy'
       runs-on: ubuntu-latest
-      needs: [terraform]
+      needs: [terraform_apply]
       environment: dev
           
           # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
