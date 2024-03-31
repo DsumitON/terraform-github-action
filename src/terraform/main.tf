@@ -26,7 +26,7 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "rg" {
-  name     = "demo-rg"
+  name     = "demo-rg-sks"
   location = "West Europe"
   tags =  {
     env = "dev"
