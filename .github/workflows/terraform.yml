@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-  workflow_dispatch:  
+  workflow_dispatch: #to give manual option for run workflow  
 
 env:
   ARM_CLIENT_ID: ${{secrets.AZURE_CLIENT_ID}}
